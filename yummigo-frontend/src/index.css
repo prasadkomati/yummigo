@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+:root {
+  --yummi-orange: #ff7a00;
+  --yummi-dark: #222;
+}
+
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: #f8f9fa;
+  color: #212529;
+}
+
+
+.navbar-brand {
+  color: var(--yummi-orange) !important;
+  font-weight: 700;
+}
+
+
+.btn-yummi {
+  background: var(--yummi-orange);
+  color: white;
+  border: none;
+}
+
+
+.hero {
+  background: linear-gradient(90deg, rgba(255, 122, 0, 0.08), rgba(255, 122, 0, 0.03));
+  padding: 64px 0;
+}
+
+
+.card-restaurant img {
+  height: 160px;
+  object-fit: cover;
+}
+
+
+.footer {
+  background: #101010;
+  color: #e9ecef;
+  padding: 32px 0;
+}
+
+
+.footer a {
+  color: #ffc58f;
+}
+
+
+.form-error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+
+.container-small {
+  max-width: 720px;
+}

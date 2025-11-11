@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar-brand {
+  color: orange !important;
+  font-weight: bold;
+}
+
+/* src/App.css */
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+form select,
+form input {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
